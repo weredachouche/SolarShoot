@@ -139,7 +139,6 @@
 		8D663E072242E51D0011DD18 = {
 			isa = PBXGroup;
 			children = (
-				BC54CC0B226688D600043AD2 /* Sons.swift */,
 				8D663E122242E51D0011DD18 /* Solar Shoot */,
 				8D663E2D2242E51E0011DD18 /* Solar ShootTests */,
 				8D663E382242E51E0011DD18 /* Solar ShootUITests */,
@@ -172,6 +171,7 @@
 				1F2CD2622267770E000CFCC7 /* WinSceneFinal.swift */,
 				8D663E1B2242E51D0011DD18 /* GameViewController.swift */,
 				8D663E4A2242E7470011DD18 /* MainMenu.swift */,
+				BC54CC0B226688D600043AD2 /* Sons.swift */,
 				8DE70E3B225F9EA2000C4D14 /* Music.swift */,
 				8D663E502242E7950011DD18 /* Carte.swift */,
 				8DE70E43225FDA91000C4D14 /* Items */,

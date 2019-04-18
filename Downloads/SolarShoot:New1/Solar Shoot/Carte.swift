@@ -61,7 +61,7 @@ class Carte:SKScene{
         pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width*0.35, y: self.size.height/5.0),control: CGPoint(x:size.width*0.4, y:size.height/10.5))
         pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width*0.6, y: self.size.height/2.80),control: CGPoint(x:size.width*0.4, y:size.height/2.5))
         pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width*0.4, y: self.size.height/2.0),control: CGPoint(x:size.width*0.5, y:size.height/2.5))
-        pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width*(2/3), y: self.size.height/1.80),control: CGPoint(x:size.width*0.4, y:size.height/(10/6.5)))
+        pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width*(2/3), y: self.size.height/1.80),control: CGPoint(x:size.width*0.3, y:size.height/(10/6.5)))
         pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width*(2/3), y: self.size.height/1.40),control: CGPoint(x:size.width*0.75, y:size.height/(10/6.5)))
         pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width*(1/2), y: self.size.height/1.22), control: CGPoint(x:size.width*0.75, y:size.height/(10/8)))
         pathToDraw.addQuadCurve(to: CGPoint(x: self.size.width * 0.3 , y: self.size.height/(10/9)),control: CGPoint(x:size.width*0.4, y:size.height/(10/9.9)))
@@ -107,7 +107,7 @@ class Carte:SKScene{
             modifierLine(xP: 0.6, yP: 2.80, xP1: 0.4, yP1: 2.0, xC: 0.5, yC: 2.5)
         }
         if (lvlNumber >= 5 && lvlNumber != 8){
-            modifierLine(xP: 0.4, yP: 2.0, xP1: (2/3), yP1: 1.80, xC: 0.4, yC: (10/6.5))
+            modifierLine(xP: 0.4, yP: 2.0, xP1: (2/3), yP1: 1.80, xC: 0.3, yC: (10/6.5))
         }
         if (lvlNumber >= 6 && lvlNumber != 8){
             modifierLine(xP: (2/3), yP: 1.80, xP1:( 2/3), yP1: 1.40, xC: 0.75, yC: (10/6.5) )
@@ -119,7 +119,7 @@ class Carte:SKScene{
             modifierLine(xP: 0.7, yP: 6.3, xP1: 0.35, yP1: 5.0, xC: 0.4, yC: 10.5 )
             modifierLine(xP:0.35, yP: 5.0, xP1: 0.6, yP1: 2.80, xC: 0.4, yC: 2.5)
             modifierLine(xP: 0.6, yP: 2.80, xP1: 0.4, yP1: 2.0, xC: 0.5, yC: 2.5)
-            modifierLine(xP: 0.4, yP: 2.0, xP1: (2/3), yP1: 1.80, xC: 0.4, yC: (10/6.5))
+            modifierLine(xP: 0.4, yP: 2.0, xP1: (2/3), yP1: 1.80, xC: 0.3, yC: (10/6.5))
             modifierLine(xP: (2/3), yP: 1.80, xP1:( 2/3), yP1: 1.40, xC: 0.75, yC: (10/6.5))
             modifierLine(xP: (2/3), yP: 1.40, xP1: (1/2), yP1: 1.22, xC: 0.75, yC: (10/8))
             modifierLine(xP: (1/2), yP: 1.22, xP1: 0.3, yP1: 10/9, xC: 0.4, yC: (10/9.9))

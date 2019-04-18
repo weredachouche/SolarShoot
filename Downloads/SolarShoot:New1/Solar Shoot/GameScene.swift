@@ -23,7 +23,7 @@ extension BinaryInteger {
 }
 
 var gameScore = 0 //Cette variable est publique à toutes les scene
-var lvlNumber : Int = 5
+var lvlNumber : Int = 1
 var lvlRequired : Int = 1
 let gameScoreString = gameScore.formattedWithSeparatorGameScene
 let musique = Music(musiqueActivee: musiqueActivee)
